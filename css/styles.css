@@ -1,5 +1,9 @@
 .container{
     max-width: 1128px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 156px;
+    margin-left: 156px;
 }
 a{
     text-decoration: none;
@@ -17,7 +21,6 @@ body{
     background-color: #ffffff;
 }
 .nav-list{
-    display: flex;
 }
 .nav-span{
  color: #2E2F42;
