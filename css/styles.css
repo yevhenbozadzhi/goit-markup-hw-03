@@ -73,8 +73,7 @@ p,h1,h2,h3,h4,h5,h6,ul,li{
    line-height: 1.07;
    letter-spacing: 0.02em;
    margin: 0 auto 48px;
-   width: 496px;
-  
+   max-width: 496px;
 }
 .button-hero{
     font-family: "Roboto", sans-serif;
@@ -283,6 +282,7 @@ display: flex;
     color: #2e2f42;
     line-height: 1.2;
     font-size: 20px;
+    margin-bottom: 8px;
 }
 .portfolio-text{
     letter-spacing: 0.02em;
