@@ -1,6 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 
 .container {
-        width: 1158px;
+        max-width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -38,15 +41,21 @@ p,h1,h2,h3,h4,h5,h6,ul,li{
 .nav-list{
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 .nav-span{
  color: #2E2F42;
- margin-right: 76px;
 }
 .header-container{
     display: flex;
+    align-items: center;
+}
+.address-list{
+    display: flex;
+    align-items: center;
 }
 .link-web{
+    padding: 24px 0;
     margin-right: 76px;
 }
 /* section 1 hero */
@@ -104,6 +113,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
     }
 .link-web{
     font-family: "Raleway", sans-serif;
@@ -136,7 +146,7 @@ text-decoration: none;
 .address-list{
     display: flex;
     gap: 40px;
-    justify-content: flex-end;
+   justify-content: flex-end;
 }           
 
 /* footer */
@@ -166,12 +176,11 @@ padding: 100px 0;
     line-height: 1.5;
 }
 /* section 2 */
-.hidden-container{
-}
+
 .hidden{
     padding: 120px 0;
 }
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
